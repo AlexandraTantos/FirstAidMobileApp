@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".BurnsFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_burns_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Types of burns:\n\n• Superficial – these burns cause damage to the first or top layer of skin only. The burn site will be red and painful.\n• Partial thickness – these burns cause damage to the first and second skin layers. The burn site will be red, peeling, blistered and swelling with clear or yellow-coloured fluid leaking from the skin. The burn site is very painful.\n•Full thickness – involves damage to both the first and second skin layers, plus the underlying tissue. The burn site generally appears black or charred with white exposed fatty tissue.\n"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="16dp"
+                    android:gravity="start|top"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/img_burns"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/burns_aid"
+                android:layout_marginTop="16dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:layout_marginTop="16dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_burns_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Steps to take:\n\n1. Step away from the source of the burn\n\n2. Gently flush the area with cool water to reduce the temperature. Never use ice.\n\n3. Remove clothing from the wound unless it's sticking; in that case, leave it for medical professionals to remove. Take off any jewelry before the area can swell.\n\n4. Cover the burn with a clean non-stick sterile bandage or cling wrap if you have it. Do not pop any blisters. This can increase the risk of infection.\n\n5. Do not use any greases, sprays, butter, or ointments on a burn, as they keep the heat in."
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="16dp"
+                    android:gravity="start|top" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:layout_marginTop="16dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_burns_emergency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When to Call 911 for Burns:\n\nIf you see charred or white flesh after a burn—or in the case of any large and severe burns—call 911 immediately. This can be a life-threatening emergency. Do not attempt to treat the burn but do cover it with a sterile or clean cloth. If the person is unconscious or not breathing, and it is safe to do so, perform CPR."
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="16dp"
+                    android:gravity="start|top" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,10 +7,16 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
 
 public class GridAdapter extends BaseAdapter {
     private Context context;
-    private final String[] titles = {"Allergies", "Burns", "Heart Attack", "Bleeding","Broken Bone","Shock","Choking","Poisoning",};
+    private CardView cardView;
+    private final String[] titles = {"Allergies", "Burns", "CPR", "Bleeding","Broken Bone","Shock","Choking","Poisoning",};
     private final int[] icons = {
             R.drawable.allergies,
             R.drawable.burns,
@@ -49,6 +55,8 @@ public class GridAdapter extends BaseAdapter {
 
         ImageView imageView = convertView.findViewById(R.id.icon);
         TextView textView = convertView.findViewById(R.id.title);
+
+        cardView = convertView.findViewById(R.id.container);
 
         imageView.setImageResource(icons[position]);
         textView.setText(titles[position]);

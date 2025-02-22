@@ -4,9 +4,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
@@ -61,26 +63,50 @@ public class MainActivity extends AppCompatActivity {
         GridAdapter adapter = new GridAdapter(this);
         gridView.setAdapter(adapter);
 
-        gridView.setOnItemClickListener((parent, view, position, id) -> {
-            Intent intent = null;
-            switch (position) {
-                case 0:
-                    //intent = new Intent(MainActivity.this, FirstAidForKidsActivity.class);
-                    break;
-                /*case 1:
-                    intent = new Intent(MainActivity.this, CardiacEmergencyActivity.class);
-                    break;
-                case 2:
-                    intent = new Intent(MainActivity.this, AccidentActivity.class);
-                    break;
-                case 3:
-                    intent = new Intent(MainActivity.this, HealthTipsActivity.class);
-                    break;*/
-            }
-            if (intent != null) {
-                startActivity(intent);
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Fragment selectedFragment = null;
+
+                switch (position) {
+                    case 0:
+                        selectedFragment = new AllergiesFragment();
+                        break;
+                    case 1:
+                        selectedFragment = new BurnsFragment();
+                        break;
+                    case 2:
+                        selectedFragment = new HeartAttackFragment();
+                        break;
+                    case 3:
+                        selectedFragment = new BleedingFragment();
+                        break;
+                    case 4:
+                        selectedFragment = new BrokenBoneFragment();
+                        break;
+                    case 5:
+                        selectedFragment = new ShockFragment();
+                        break;
+                    case 6:
+                        selectedFragment = new ChokingFragment();
+                        break;
+                    case 7:
+                        selectedFragment = new PoisoningFragment();
+                        break;
+                }
+
+                if (selectedFragment != null) {
+                    gridView.setVisibility(View.GONE);
+                    findViewById(R.id.img_guide).setVisibility(View.GONE);
+
+                    getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragment_container, selectedFragment)
+                            .addToBackStack(null)
+                            .commit();
+                }
             }
         });
+
 
         navigationView.setNavigationItemSelectedListener(item -> {
             Fragment fragment = null;

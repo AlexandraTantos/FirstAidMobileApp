@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".HeartAttackFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_heart_attack_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is CPR?\n•CPR (short for cardiopulmonary resuscitation) is a first aid technique you can use on someone if they are not breathing or if their heart has stopped.\nCPR involves chest compressions and mouth-to-mouth (rescue breaths). The aim is to circulate blood and oxygen in the body to keep the brain and vital organs alive until specialised treatment is available.\n Start CPR as soon as possible if a person is:\n•unconscious (not responding to you)\n•not breathing\n•breathing abnormally (for example, gasping for air or grunting)"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="16dp"
+                    android:gravity="start|top"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/img_heart_attack"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/heart_attack_aid"
+                android:layout_marginTop="16dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:layout_marginTop="16dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_heart_attack_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Steps to take:\n\n1.Check the scene and the person\n\n2.Call 112 for assistance\n\n3.Open the airway : With the person lying on his or her back, tilt the head back slightly to lift the chin\n\n4.Check for breathing :Listen carefully for sounds of breathing, for no more than 10 seconds.If there is no breathing, begin CPR \n\n4.Begin chest compressions : Position hands one on top of the other in the middle of the chest.Use your body weight to help administer compressions at least 2 inches deep and delivered at a rate of at least 100 compressions per minute\n\n6.Deliver rescue breaths: With the person's head tilted back slightly and the chin lifted, pinch the nose, blow into the person's mouth to make the chest rise. Deliver two rescue breaths, then continue compressions"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="16dp"
+                    android:gravity="start|top" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                android:layout_marginTop="16dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_heart_attack_emergency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continue CPR steps until:\n\n•The person exhibits signs of life, such as breathing\n•An AED becomes available, once it is applied continue CPR if the patient is still unresponsive\n•EMS or a trained medical responder arrives on the scene and takes over"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="16dp"
+                    android:gravity="start|top" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

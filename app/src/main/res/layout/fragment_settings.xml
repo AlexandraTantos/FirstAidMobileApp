@@ -50,6 +50,7 @@
                 android:focusable="true"
                 android:textColor="@color/dark_gray"
                 android:paddingTop="4dp"/>
+
         </LinearLayout>
 
         <LinearLayout

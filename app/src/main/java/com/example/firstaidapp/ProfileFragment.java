@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 public class ProfileFragment extends Fragment {
 
@@ -30,7 +32,13 @@ public class ProfileFragment extends Fragment {
         tvMedicalHistory.setText("No significant medical history");
         tvAllergies.setText("Peanut allergy");
         tvMedication.setText("None");
-
+        Button btnEditProfile = rootView.findViewById(R.id.btn_edit_profile);
+        btnEditProfile.setOnClickListener(v -> {
+            FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+            transaction.replace(R.id.fragment_container, new EditProfileFragment());
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
         return rootView;
     }
 

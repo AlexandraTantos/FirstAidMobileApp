@@ -78,7 +78,9 @@
                     android:nestedScrollingEnabled="true"
                     android:numColumns="2"
                     android:stretchMode="columnWidth"
-                    android:verticalSpacing="14dp" />
+                    android:verticalSpacing="14dp"
+                    android:descendantFocusability="blocksDescendants"
+                    />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
