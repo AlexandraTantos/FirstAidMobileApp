@@ -23,19 +23,18 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:padding="16dp">
 
                 <TextView
                     android:id="@+id/text_choking_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Signs and symptoms of choking:\n• clutching at their chest or neck.\n•won’t be able to speak, breathe or cough.\n"
+                    android:text="Signs and symptoms of choking:\n\n• Clutching at their chest or neck.\n• Won’t be able to speak, breathe or cough.\n"
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top"/>
 
             </androidx.cardview.widget.CardView>
@@ -50,8 +49,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:layout_marginTop="16dp"
                 android:padding="16dp">
 
@@ -63,14 +61,14 @@
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top" />
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:layout_marginTop="16dp"
                 android:padding="16dp">
 
@@ -82,7 +80,7 @@
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>

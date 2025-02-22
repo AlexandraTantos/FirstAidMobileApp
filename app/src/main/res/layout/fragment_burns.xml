@@ -23,19 +23,18 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:padding="16dp">
 
                 <TextView
                     android:id="@+id/text_burns_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Types of burns:\n\n• Superficial – these burns cause damage to the first or top layer of skin only. The burn site will be red and painful.\n• Partial thickness – these burns cause damage to the first and second skin layers. The burn site will be red, peeling, blistered and swelling with clear or yellow-coloured fluid leaking from the skin. The burn site is very painful.\n•Full thickness – involves damage to both the first and second skin layers, plus the underlying tissue. The burn site generally appears black or charred with white exposed fatty tissue.\n"
+                    android:text="Types of burns:\n\n•  Superficial – these burns cause damage to the first or top layer of skin only. The burn site will be red and painful.\n• Partial thickness – these burns cause damage to the first and second skin layers. The burn site will be red, peeling, blistered and swelling with clear or yellow-coloured fluid leaking from the skin. The burn site is very painful.\n•  Full thickness – involves damage to both the first and second skin layers, plus the underlying tissue. The burn site generally appears black or charred with white exposed fatty tissue.\n"
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top"/>
 
             </androidx.cardview.widget.CardView>
@@ -50,8 +49,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:layout_marginTop="16dp"
                 android:padding="16dp">
 
@@ -63,14 +61,14 @@
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top" />
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:layout_marginTop="16dp"
                 android:padding="16dp">
 
@@ -82,7 +80,7 @@
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>

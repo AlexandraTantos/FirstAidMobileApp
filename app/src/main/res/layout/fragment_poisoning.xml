@@ -22,19 +22,18 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:padding="16dp">
 
                 <TextView
                     android:id="@+id/text_poisoning_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="What is poisoning?\n•Poisoning is injury or death due to swallowing, inhaling, touching or injecting various drugs, chemicals, venoms or gases. Many substances — such as drugs and carbon monoxide — are poisonous only in higher concentrations or dosages. And others — such as cleaners — are dangerous only if ingested. Children are particularly sensitive to even small amounts of certain drugs and chemicals."
+                    android:text="What is poisoning?\n\n•  Poisoning is injury or death due to swallowing, inhaling, touching or injecting various drugs, chemicals, venoms or gases. Many substances — such as drugs and carbon monoxide — are poisonous only in higher concentrations or dosages. And others — such as cleaners — are dangerous only if ingested. Children are particularly sensitive to even small amounts of certain drugs and chemicals."
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top"/>
 
             </androidx.cardview.widget.CardView>
@@ -49,8 +48,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:layout_marginTop="16dp"
                 android:padding="16dp">
 
@@ -62,7 +60,7 @@
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>

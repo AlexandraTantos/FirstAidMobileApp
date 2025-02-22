@@ -30,8 +30,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:layout_marginTop="16dp"
                 android:padding="16dp">
 
@@ -41,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start|top"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:text="Steps to take:\n\n1. Ensure safety: Wear gloves if available and check the scene.\n\n2. Apply direct pressure: Use a clean cloth or bandage to press on the wound for at least 5-10 minutes.\n\n3. Elevate the wounded area: If possible, raise the injured limb above heart level.\n\n4. Apply a bandage: Wrap the wound with a sterile dressing. If blood soaks through, add another layer without removing the first.\n\n5. Seek medical help: Call emergency services if bleeding is severe, does not stop, or if there are signs of shock."
                     android:textColor="#333333"
                     android:textSize="16sp" />
@@ -50,8 +49,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="8dp"
+                app:cardElevation="1dp"
                 android:layout_marginTop="16dp"
                 android:padding="16dp">
 
@@ -59,11 +57,11 @@
                     android:id="@+id/text_bleeding_emergency"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Seek emergency help if:\n\n• The bleeding does not stop after 10 minutes of pressure.\n• Blood is spurting or coming out in pulses.\n• The wound is deep or caused by a serious injury.\n• The person shows signs of shock, such as pale skin, dizziness, or confusion."
+                    android:text="Seek emergency help if:\n\n•  The bleeding does not stop after 10 minutes of pressure.\n•  Blood is spurting or coming out in pulses.\n•  The wound is deep or caused by a serious injury.\n•  The person shows signs of shock, such as pale skin, dizziness, or confusion."
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
-                    android:padding="16dp"
+                    android:padding="20dp"
                     android:gravity="start|top" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
