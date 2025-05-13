@@ -40,58 +40,8 @@
                 android:focusable="true"
                 android:textColor="@color/dark_gray"/>
 
-            <TextView
-                android:id="@+id/tv_first_aid_guide"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Share Location"
-                android:textSize="16sp"
-                android:clickable="true"
-                android:focusable="true"
-                android:textColor="@color/dark_gray"
-                android:paddingTop="4dp"/>
-
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/card_background"
-            android:elevation="4dp"
-            android:padding="16dp"
-            android:layout_marginTop="16dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Emergency Features"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:paddingBottom="8dp"/>
-
-            <TextView
-                android:id="@+id/tv_sos_alert"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="SOS Alert"
-                android:textSize="16sp"
-                android:clickable="true"
-                android:focusable="true"
-                android:textColor="@color/dark_gray"/>
-
-            <TextView
-                android:id="@+id/tv_guide_to_safety"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Guide to Safety"
-                android:textSize="16sp"
-                android:clickable="true"
-                android:focusable="true"
-                android:textColor="@color/dark_gray"
-                android:paddingTop="4dp"/>
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

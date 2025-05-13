@@ -5,9 +5,6 @@
         android:id="@+id/nav_guides_kids"
         android:title="Baby First Aid" />
     <item
-        android:id="@+id/nav_tips"
-        android:title="Health Tips" />
-    <item
         android:id="@+id/nav_find_hospital"
         android:title="Find Nearest Hospital" />
     <item

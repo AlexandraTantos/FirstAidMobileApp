@@ -32,10 +32,13 @@ android {
 }
 
 dependencies {
-    implementation("com.google.android.gms:play-services-location:21.0.1")
-    implementation("com.google.android.gms:play-services-maps:18.1.0")
-    implementation("com.google.android.libraries.places:places:3.3.0")
-
+    implementation (libs.picasso)
+    implementation (libs.glide)
+    implementation (libs.retrofit)
+    implementation(libs.gson)
+    implementation (libs.converter.gson)
+    implementation (libs.play.services.maps)
+    implementation (libs.play.services.location)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

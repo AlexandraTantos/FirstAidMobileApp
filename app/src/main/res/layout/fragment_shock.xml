@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_gray"
-    tools:context=".ShockFragment">
+    tools:context=".View.ShockFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -35,10 +35,9 @@
                 android:padding="16dp">
 
                 <TextView
-                    android:id="@+id/text_poisoning_steps"
+                    android:id="@+id/text_shock_steps"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Electrical Shock First Aid:\n\n1. Do not touch the person if they are still in contact with the electrical source.\n\n2. Turn off the power source if possible.\n\n3. Call emergency services immediately.\n\n4. If the person is unresponsive and not breathing, begin CPR.\n\n5. Treat burns with sterile, non-adhesive bandages."
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"

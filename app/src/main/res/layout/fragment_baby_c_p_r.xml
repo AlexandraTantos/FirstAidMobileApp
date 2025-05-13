@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_gray"
-    tools:context=".BabyCPRFragment">
+    tools:context=".View.BabyCPRFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -25,6 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:src="@drawable/baby_cpr_aid"
+                android:scaleType="fitCenter"
                 android:layout_marginTop="16dp" />
 
             <androidx.cardview.widget.CardView
@@ -38,7 +39,7 @@
                     android:id="@+id/text_baby_cpr_steps"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Baby CPR Steps:\n\n1. Check for responsiveness by gently tapping the baby.\n\n2. If unresponsive and not breathing, begin CPR.\n\n3. Give 30 gentle chest compressions using two fingers at the center of the chest.\n\n4. Give 2 rescue breaths, covering the baby’s nose and mouth.\n\n5. Continue cycles of 30 compressions and 2 breaths until help arrives."
+                    android:text=""
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"

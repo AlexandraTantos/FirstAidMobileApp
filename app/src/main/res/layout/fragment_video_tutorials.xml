@@ -1,0 +1,98 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_gray"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Aid Video Tutorials"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_video_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPR Tutorial"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_red"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_video_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burn Treatment"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_red"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_video_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fracture Management"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_red"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_video_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heimlich Maneuver"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_red"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_video_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electric Shock Treatment"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_red"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_video_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choking First Aid"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_red"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

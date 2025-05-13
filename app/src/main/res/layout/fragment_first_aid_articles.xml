@@ -1,0 +1,230 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Aid Articles"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Perform CPR"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn the steps to perform CPR effectively in emergency situations."
+                android:textSize="14sp"
+                android:textColor="@color/dark_gray"
+                android:paddingTop="4dp"/>
+
+            <Button
+                android:id="@+id/btn_article_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read Article"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/light_red"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treating Burns"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow these guidelines to treat burns effectively."
+                android:textSize="14sp"
+                android:textColor="@color/dark_gray"
+                android:paddingTop="4dp"/>
+
+            <Button
+                android:id="@+id/btn_article_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read Article"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/light_red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to perform Heimlich Maneuver"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow these guidelines to treat choking effectively."
+                android:textSize="14sp"
+                android:textColor="@color/dark_gray"
+                android:paddingTop="4dp"/>
+
+            <Button
+                android:id="@+id/btn_article_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read Article"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/light_red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treating Bleeding"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow these guidelines to treat bleeding effectively."
+                android:textSize="14sp"
+                android:textColor="@color/dark_gray"
+                android:paddingTop="4dp"/>
+
+            <Button
+                android:id="@+id/btn_article_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read Article"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/light_red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treating Electric Shocks"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow these guidelines to treat electric shocks effectively."
+                android:textSize="14sp"
+                android:textColor="@color/dark_gray"
+                android:paddingTop="4dp"/>
+
+            <Button
+                android:id="@+id/btn_article_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read Article"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/light_red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treating Fractures"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow these guidelines to treat fractures effectively."
+                android:textSize="14sp"
+                android:textColor="@color/dark_gray"
+                android:paddingTop="4dp"/>
+
+            <Button
+                android:id="@+id/btn_article_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read Article"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/light_red"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

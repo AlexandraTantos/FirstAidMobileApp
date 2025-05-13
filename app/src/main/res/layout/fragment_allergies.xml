@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_gray"
-    tools:context=".AllergiesFragment">
+    tools:context=".View.AllergiesFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -30,7 +30,6 @@
                     android:id="@+id/text_allergy_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Allergy Symptoms:\n\n• Difficulty breathing or wheezing\n• Tightness in the throat or a feeling that the airways are closing\n• Hoarseness or trouble speaking\n• Swollen lips, tongue, or throat\n• Nausea, abdominal pain, or vomiting\n• Fast heartbeat or pulse\n• Anxiety or dizziness\n• Loss of consciousness\n• Other symptoms of a severe allergic reaction (anaphylaxis)"
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
@@ -57,7 +56,6 @@
                     android:id="@+id/text_allergy_steps"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Steps to take:\n\n1. Give epinephrine auto-injector (e.g. EpiPen®) at the first sign of a known or suspected anaphylactic reaction.\n\n2. Call 112 or local emergency medical services. Tell them someone is having a life-threatening allergic reaction.\n\n3. Give a second dose of epinephrine as early as 5 minutes after the first dose if there is no improvement in symptoms.\n\n4. Go to the nearest hospital immediately (ideally by ambulance), even if symptoms are mild or have stopped. The reaction could worsen or come back, even after proper treatment. Stay in the hospital for an appropriate period of observation as decided by the emergency department physician (generally about 4-6 hours).\n\n5. Call emergency contact person (e.g. parent, guardian)."
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"

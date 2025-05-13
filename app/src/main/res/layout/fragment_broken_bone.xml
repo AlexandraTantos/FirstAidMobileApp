@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_gray"
-    tools:context=".BrokenBoneFragment">
+    tools:context=".View.BrokenBoneFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -38,7 +38,6 @@
                     android:id="@+id/text_broken_bone_steps"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Broken Bone First Aid:\n\n1. Keep the person still and do not move the injured area.\n\n2. Apply a splint or padding to immobilize the bone.\n\n3. Use ice packs to reduce swelling.\n\n4. Seek emergency medical help."
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"

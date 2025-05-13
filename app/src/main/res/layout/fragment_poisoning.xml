@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_gray"
-    tools:context=".PoisoningFragment">
+    tools:context=".View.PoisoningFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -29,7 +29,6 @@
                     android:id="@+id/text_poisoning_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="What is poisoning?\n\n•  Poisoning is injury or death due to swallowing, inhaling, touching or injecting various drugs, chemicals, venoms or gases. Many substances — such as drugs and carbon monoxide — are poisonous only in higher concentrations or dosages. And others — such as cleaners — are dangerous only if ingested. Children are particularly sensitive to even small amounts of certain drugs and chemicals."
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
@@ -56,7 +55,6 @@
                     android:id="@+id/text_poisoning_steps"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Poisoning First Aid:\n\n1. Identify the type of poison if possible.\n\n2. Do not induce vomiting unless instructed by medical professionals.\n\n3. If the poison was inhaled, move the person to fresh air.\n\n4. If the poison was ingested, do not give them anything to eat or drink unless directed by a medical expert.\n\n5. Call poison control or emergency services immediately."
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="8dp"
